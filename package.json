@@ -1,13 +1,11 @@
 {
-  "name": "vue-ts-boilerplate",
-  "version": "0.1.2",
-  "private": true,
-  "author": "richardevcom <hello@richardev.com> (https://richardev.com)",
+  "name": "wilayah-quran",
+  "version": "1.0.0",
+  "author": "wilayahquran <mohsinrezawalji@gmail.com>",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check build-only",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "build": "vite build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
